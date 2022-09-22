@@ -63,7 +63,7 @@ namespace Sammy\Packs\CapsuleCssFileDependencyWatcher {
     /**
      * @method void __invoke
      */
-    public final function __invoke ($file, array $options = []) {
+    public function __invoke ($file, array $options = []) {
       if (!in_array ($file->path, $this->loadedFiles)) {
         array_push ($this->loadedFiles, $file->path);
 
