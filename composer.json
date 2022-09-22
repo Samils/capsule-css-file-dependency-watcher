@@ -7,6 +7,7 @@
 	"keywords": [
     "capsule-css-file-dependency-watcher"
 	],
+  "minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
       "Sammy\\": "Sammy/"
